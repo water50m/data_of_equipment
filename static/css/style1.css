@@ -1,0 +1,19 @@
+.graphbox{
+    position: relative;
+    
+    width: 105%;
+    padding:5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:20px
+
+}
+
+.graphbox .box{
+    position: relative;
+    background:white;
+    padding: 5px;
+    width: 100%;
+    box-shadow:0 7px 25px rgba(0,0,0,0.08);
+    border-radius:20px;
+}
